@@ -1,0 +1,259 @@
+body
+{
+	width: 100vw;
+	height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+}
+
+header h1
+{
+	color: #FDCB42;
+	background-color: #569C87;
+	text-align: center;
+	font-size: 	80px;
+	font-weight: bold;
+}
+
+#menutop, #menubot
+{
+	display: flex;
+	justify-content: space-around;	
+}
+
+.menu1, .menu2, .menu3, .menu4
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+}
+
+/*---- Menu 1 ----*/
+
+.menu1
+{
+	background-color: #FCDFDA;
+	width: 30%;
+	height: 35vw;
+	box-shadow: 0px 0px 10px 1px #1f1f1f;
+	justify-content: center;
+	text-align: center;
+}
+
+.menu1 a
+{
+	font-size: 40px;
+	text-decoration: none;
+	color: #772514;
+}
+
+.menu1 h2
+{
+	font-size: 40px;
+	color: #772514;
+}
+.fas
+{
+	font-size: 60px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#B03A2E), to(#F5B7B1));
+	background: linear-gradient(90deg, #B03A2E, #F5B7B1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*---- Menu 2 ----*/
+.menu2 a
+{
+	font-size: 40px;
+	text-decoration: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E), to(#905BFD));
+	background: linear-gradient(90deg, #D8852E, #905BFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu2 h2
+{
+	font-size: 40px;
+	color: #D8852E;
+}
+
+/*---- Menu 3 ----*/
+.menu3 a
+{
+	font-size: 40px;
+	text-decoration: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#292ED8), to(#48B1E5));
+	background: linear-gradient(90deg, #292ED8, #48B1E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu3 h2
+{
+	font-size: 40px;
+	color: #48B1E5;
+}
+
+/*---- Menu 4 ----*/
+.menu4 a
+{
+	font-size: 40px;
+	text-decoration: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#20D82B), to(#A0FF8C));
+	background: linear-gradient(90deg, #20D82B, #A0FF8C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu4 h2
+{
+	font-size: 40px;
+	color: #20D82B;
+}
+
+
+.menu2, .menu3, .menu4
+{
+	background-color: white;
+	width: 30%;
+	height: 35vw;
+	box-shadow: 0px 0px 10px 1px #1f1f1f;
+	justify-content: center;
+	text-align: center;
+}
+
+.proch
+{
+	width: 20%;
+	text-align: center;
+    background-color: #569C87;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+    color: #FDCB42;
+    font-size: 50px;
+    
+}
+
+.footer
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #569C87;
+	font-size: 40px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+.footer a
+{
+	color: #FDCB42;
+	margin: 0px 30px 0px 30px;
+	padding: 15px;
+	text-decoration: none;
+}
+
+
+/*---- Media queries ----*/
+
+@media screen and (max-width: 1500px)
+{
+	.proch
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 1300px)
+{
+	.menu a, .menu h2, .fas
+	{
+		font-size: 25px;
+	}
+
+	.proch
+	{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.menu a, .menu h2, .fas
+	{
+		font-size: 20px;
+	}
+
+	.proch
+	{
+		font-size: 15px;
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	#menutop, #menubot
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.menu1, .menu2, .menu3, .menu4
+	{
+		width: 50%;
+		height: 60vw;
+	}
+
+	.footer
+	{
+		font-size: 25px;
+	}
+
+}
+
+@media screen and (max-width: 500px)
+{
+	.menu a, .menu h2, .fas
+	{
+		font-size: 15px;
+	}
+
+	.proch
+	{
+		font-size: 15px;
+	}
+	.footer
+	{
+		font-size: 15px;
+	}
+
+	.proch
+	{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	header h1
+	{
+		font-size: 60px;
+	}
+
+	.footer
+	{
+		font-size: 10px;
+	}
+}
+
+
