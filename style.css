@@ -19,6 +19,7 @@ header h1
 	text-align: center;
 	font-size: 	80px;
 	font-weight: bold;
+	margin: 0;
 }
 
 #menutop, #menubot
@@ -256,4 +257,6 @@ header h1
 	}
 }
 
+
+ 
 
