@@ -14,7 +14,14 @@ header h1
 	font-size: 	80px;
 	font-weight: bold;
 	margin: 0;
+	text-decoration: none;
 }
+
+header a
+{
+	text-decoration: none;
+}
+
 
 .footer
 {
@@ -41,9 +48,14 @@ header h1
 	background: linear-gradient(90deg, #B03A2E, #F5B7B1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 50px;
 }
 
 /*---------menu1---------*/
+
+
+
+
 .lanote
 {
 	background-color: #FCDFDA;
@@ -61,20 +73,40 @@ header h1
 
 }
 
+
+.line1
+{
+	display: flex;
+	align-items: baseline;
+	width: 100%;
+}
+
+.line
+{
+    border-top: 5px solid #772514;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
 #prel, #poi
 {
 	display: flex;
+	font-family: 'Kalam', cursive;
 }
 
 h2
 {
-	font-size: 40px;
+	font-size: 45px;
+	font-family: 'Devonshire', cursive;
 }
 
 h3
 {
 	text-align: center;
 	font-size: 30px;
+	width: 40%;
+	font-family: 'Kalam', cursive;
 }
 
 li
@@ -94,5 +126,221 @@ ul
 	display: flex;
 	font-size: 35px;
 	align-items: baseline;
+	font-family: 'Devonshire', cursive;
 }
+
+
+
+
+
+/*---------menu2---------*/
+
+
+
+.lechic
+{
+	background-color: #FFFFFF;
+	width: 50%;
+	height: 70vw;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0px 0px 10px 1px #1f1f1f;
+
+}
+
+.line1
+{
+	display: flex;
+	align-items: baseline;
+	width: 100%;
+}
+
+.line2
+{
+    border-top: 5px solid #D8852E;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line3
+{
+	border-top: 5px solid #A56999;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line4
+{
+	border-top: 5px solid #7755D4;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.appétit
+{
+	color: #D8852E;
+	width: 100%;
+}
+
+.papilles
+{
+	color: #A56999;
+	width: 100%;
+}
+
+.gourma
+{
+	color: #7755D4;
+	width: 100%;
+}
+
+#prel, #poi
+{
+	display: flex;
+}
+
+#text
+{
+	width: 70%;
+}
+
+.chic
+{
+	font-size: 40px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E), to(#7755D4));
+	background: linear-gradient(90deg, #D8852E, #7755D4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Croissant One', cursive;
+}
+
+h3
+{
+	text-align: center;
+	font-size: 30px;
+	width: 40%;
+}
+
+li
+{
+	text-align: left;
+	font-size: 25px;
+	line-height : 50px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+
+
+
+
+/*******menu3*******/
+
+
+
+
+
+
+.pap
+{
+	font-size: 40px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#292ED8), to(#48B1E5));
+	background: linear-gradient(90deg, #292ED8, #48B1E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Dancing Script', cursive;
+}
+
+.line5
+{
+    border-top: 5px solid #292ED8;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line6
+{
+	border-top: 5px solid #4757F5;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line7
+{
+	border-top: 5px solid #48B1E5;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.commencer, .continuer, .terminer
+{
+	width: 100%;
+	font-family: 'Kalam', cursive;
+}
+
+.last
+{
+	display: flex;
+}
+
+
+
+
+
+/*******menu4*******/
+
+
+
+
+.gou
+{
+	font-size: 40px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#20D82B), to(#A0FF8C));
+	background: linear-gradient(90deg, #20D82B, #A0FF8C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.line8
+{
+    border-top: 5px solid #20D82B;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line9
+{
+	border-top: 5px solid #36E641;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+.line10
+{
+	border-top: 5px solid #A0FF8C;
+    width: 30%;
+    margin: 2%;
+    padding-bottom: 5px;
+}
+
+
+
 
