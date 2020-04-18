@@ -1,0 +1,324 @@
+@font-face
+{ 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+
+/* partie gauche */
+
+body
+{
+	width: 100vw;
+	height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main
+{
+	width: 100%;
+	display: flex;
+}
+.gauche
+{
+	width: 25%;
+	height: auto;
+	background-color: #546E7A;
+	font-family: WebFont, sans-serif, Arial;
+
+}
+
+.gauche h2
+{
+	background-color: #4DD0E1;
+	text-align: center;
+	color: #455A64;
+}
+
+.gauche p
+{
+	margin: 50px 50px 50px 50px;
+	text-align: justify;
+	color: #4DD0E1;
+
+}
+
+#contact p
+{
+	margin: 20px 50px 20px 50px;
+}
+
+#image
+{
+	text-align: center;
+	margin: auto;
+}
+
+
+img
+{
+	border: 4px solid #4DD0E1;
+	border-radius: 100%;
+	width: 60%;
+	overflow: hidden;
+	background-color: black;
+	margin: auto;
+	margin-top: 5%;
+}
+
+
+#loisir
+{
+	display: flex;
+	flex-direction: column;
+
+}
+
+#icon i
+{
+	margin: auto;
+	color: #4DD0E1;
+	font-size: 55px;
+}
+
+#icon
+{
+	display: flex;
+	justify-content: space-around;
+}
+.atom
+{
+	width: 85px;
+	height: 85px;
+	border: 3px solid #4DD0E1;
+	border-radius: 100%;
+	display: flex;
+}
+
+.desktop
+{
+	width: 85px;
+	height: 85px;
+	border: 3px solid #4DD0E1;
+	border-radius: 100%;
+	display: flex;
+}
+
+.gamepad
+{
+	width: 85px;
+	height: 85px;
+	border: 3px solid #4DD0E1;
+	border-radius: 100%;
+	display: flex;
+}
+
+/*partie droite*/
+
+.droite
+{
+	width: 75%;
+	margin-left: 3%;
+	margin-top: 1%;
+	margin-right: 3%;
+	font-family: WebFont, sans-serif, Arial;
+
+
+}
+
+.droite .fas
+{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	color: #4DD0E1;
+}
+
+.hdroite h1
+{
+	font-size: 55px;
+	font-family: Merriweather, Arial, sans-serif;
+}
+
+.h2border
+{
+	border-bottom: 1.5px solid #4DD0E1;
+}
+
+.hdroite h2
+{
+	font-size: 30px;
+	margin-top: -25px;
+	margin-bottom: 100px;
+}
+
+h1 .h1color
+{
+	color: #4DD0E1;
+}
+
+.formation, .pro
+{
+	display: flex;
+	width: 100%;
+
+}
+
+.date, .pro1
+{
+	width: 25%;
+	font-weight: bold;
+}
+
+.format, .prof
+{
+	width: 65%;
+}
+
+#form
+{
+	margin-top: 50px;
+}
+
+
+.format
+{
+	text-align: justify; 
+}
+
+.prof
+{
+	text-align: justify;
+}
+
+
+
+.far
+{
+	color: #4DD0E1;
+	margin-right: 10px;
+	font-size: 20px;
+}
+
+.droite article h2
+{
+	border-bottom: 1.5px solid #4DD0E1;
+}
+
+#exp .pro
+{
+	display: flex;
+}
+
+.recom0
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+
+/* media queries */
+
+
+@media screen and (max-width: 980px)
+{
+	main
+	{
+		flex-direction: column;
+	}
+	.gauche, .droite
+	{
+		width: 100%;
+	}
+
+	#contact p
+	{
+		text-align: center;
+	}
+
+	#image
+	{
+		width: 27%;
+	}
+
+	.droite header
+	{
+		text-align: center;
+		margin: auto;
+	}
+
+	.droite
+	{
+		margin: 1%;
+	}
+
+	.droite p
+	{
+		font-size: 18px;
+	}
+
+	img
+	{
+		width: 100%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 670px)
+{
+	.formation, .pro, .recom0
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.droite p, h3, h4
+	{
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.pro1
+	{
+		width: 90%;
+	}
+
+
+}
+
+
+@media screen and (max-width: 340px)
+{
+	h1
+	{
+		font-size: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
