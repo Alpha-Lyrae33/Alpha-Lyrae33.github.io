@@ -25,14 +25,14 @@ header h1
 #menutop, #menubot
 {
 	display: flex;
-	justify-content: space-around;	
+	justify-content: center;	
 }
 
 .menu1, .menu2, .menu3, .menu4
 {
 	display: flex;
 	flex-direction: column;
-	margin-top: 60px;
+	margin: 60px;
 }
 
 /*---- Menu 1 ----*/
