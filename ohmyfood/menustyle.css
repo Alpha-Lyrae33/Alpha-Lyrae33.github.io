@@ -60,7 +60,7 @@ header a
 {
 	background-color: #FCDFDA;
 	width: 50%;
-	height: 70vw;
+	height: 80%;
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 150px;
@@ -70,6 +70,7 @@ header a
 	align-items: center;
 	text-align: center;
 	color: #772514;
+	padding-bottom: 50px;
 
 }
 
@@ -113,12 +114,21 @@ li
 {
 	text-align: left;
 	font-size: 25px;
-	line-height : 50px;
 }
 
 ul
 {
 	list-style-type: none;
+	display: flex;
+	font-size: 0px;
+	justify-content: space-between;
+	line-height: 1em;
+	padding: 0px;
+}
+
+#prel, #poi
+{
+	flex-direction: column;
 }
 
 .footmenu
@@ -129,6 +139,21 @@ ul
 	font-family: 'Devonshire', cursive;
 }
 
+.text
+{
+	width: 90%;
+}
+
+.prix
+{
+	font-weight: bold;
+}
+
+.mouv ul
+{
+	flex-direction: column;
+	font-family: 'Kalam', cursive;
+}
 
 
 
@@ -141,7 +166,7 @@ ul
 {
 	background-color: #FFFFFF;
 	width: 50%;
-	height: 70vw;
+	height: 80%;
 	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 150px;
@@ -151,6 +176,7 @@ ul
 	align-items: center;
 	text-align: center;
 	box-shadow: 0px 0px 10px 1px #1f1f1f;
+	padding-bottom: 50px;
 
 }
 
@@ -188,19 +214,19 @@ ul
 .appétit
 {
 	color: #D8852E;
-	width: 100%;
+	width: 90%;
 }
 
 .papilles
 {
 	color: #A56999;
-	width: 100%;
+	width: 90%;
 }
 
 .gourma
 {
 	color: #7755D4;
-	width: 100%;
+	width: 90%;
 }
 
 #prel, #poi
@@ -208,9 +234,10 @@ ul
 	display: flex;
 }
 
-#text
+.gourman ul
 {
-	width: 70%;
+	flex-direction: column;
+	font-family: 'Kalam', cursive;
 }
 
 .chic
@@ -235,6 +262,7 @@ li
 	text-align: left;
 	font-size: 25px;
 	line-height : 50px;
+	
 }
 
 ul
@@ -289,13 +317,14 @@ ul
 
 .commencer, .continuer, .terminer
 {
-	width: 100%;
+	width: 90%;
 	font-family: 'Kalam', cursive;
 }
 
 .last
 {
 	display: flex;
+	flex-direction: column;
 }
 
 
@@ -343,4 +372,151 @@ ul
 
 
 
+@media screen and (max-width: 1620px)
+{
+	li
+	{
+		font-size: 20px;
+	}
 
+}
+
+
+
+@media screen and (max-width: 1500px)
+{
+	.fas
+	{
+		font-size: 40px;
+	}
+	h2
+	{
+		font-size: 35px;
+	}
+
+	h3, h4
+	{
+		font-size: 25px;
+	}
+
+	.chic
+	{
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	li
+	{
+		font-size: 17px;
+		line-height: 2.5em;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.lanote, .lechic
+	{
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 900px)
+{
+	li
+	{
+		font-size: 14px;
+	}
+
+	h3
+	{
+		font-size: 18px;
+	}
+
+	.lanote, .lechic
+	{
+		width: 60%;
+	}
+
+	.chic
+	{
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width: 800px)
+{
+	.lanote, .lechic
+	{
+		width: 70%;
+	}
+
+	.line
+	{
+		border-top: 3px solid #772514;
+	}
+}
+
+@media screen and (max-width: 700px)
+{
+	.footer
+	{
+		font-size: 25px;
+	}
+
+	.lanote, .lechic
+	{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+	li
+	{
+		font-size: 12px;
+	}
+
+	h3
+	{
+		font-size: 15px;
+	}
+
+	h2
+	{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.lanote, .lechic
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	header h1
+	{
+		font-size: 60px;
+	}
+
+	.footer
+	{
+		font-size: 10px;
+	}
+
+	ul
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+	li
+	{
+		text-align: center;
+	}
+}
