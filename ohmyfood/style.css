@@ -35,7 +35,7 @@ header h1
 	margin: 60px;
 }
 
-/*---- Menu 1 ----*/
+/*---- Menu 1 B03A2E----*/
 
 .menu1
 {
@@ -45,6 +45,12 @@ header h1
 	box-shadow: 0px 0px 10px 1px #1f1f1f;
 	justify-content: center;
 	text-align: center;
+}
+
+.anim
+{
+	display: flex;
+	flex-direction: column;
 }
 
 .menu1 a
@@ -65,8 +71,8 @@ header h1
 .fas
 {
 	font-size: 60px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#B03A2E), to(#F5B7B1));
-	background: linear-gradient(90deg, #B03A2E, #F5B7B1);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FE5B27), to(#FA9B75));
+	background: linear-gradient(90deg, #FE5B27, #FA9B75);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -273,5 +279,103 @@ header h1
 }
 
 
- 
 
+/***** Animation *****/
+
+
+@-webkit-keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes dot {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dot1 {
+  -webkit-animation: dot 1.5s infinite;
+          animation: dot 1.5s infinite;
+}
+
+.dot2 {
+  -webkit-animation: dot 1.4s infinite .7s;
+          animation: dot 1.4s infinite .7s;
+}
+
+.dot3 {
+  -webkit-animation: dot 1.4s infinite 1s;
+          animation: dot 1.4s infinite 1s;
+}
+
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@-webkit-keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.footer a
+{
+  animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;
+  -webkit-animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;  
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+
+.anim:hover 
+{
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: -webkit-transform 600ms;
+  transition: -webkit-transform 600ms;
+  transition: transform 600ms;
+  transition: transform 600ms, -webkit-transform 600ms;
+  opacity: 0.8;
+}

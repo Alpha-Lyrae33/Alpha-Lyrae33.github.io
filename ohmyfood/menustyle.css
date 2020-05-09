@@ -254,7 +254,7 @@ h3
 {
 	text-align: center;
 	font-size: 30px;
-	width: 40%;
+	width: 55%;
 }
 
 li
@@ -520,3 +520,54 @@ ul
 		text-align: center;
 	}
 }
+
+
+/***** Animations *****/
+
+
+h3
+{
+	position: relative;
+}
+
+h3:before
+{
+	content: "";
+  	position: absolute;
+  	width: 0;
+  	height: 2px;
+  	bottom: 0;
+  	left: 0;
+  	background-color: black;
+  	visibility: hidden;
+  	transition: all 0.3s ease-in-out;
+}
+
+h3:hover:before
+{
+	visibility: visible;
+	width: 100%;
+}
+
+h3.animline:before
+{
+	background-color: #772514;
+}
+
+.animline1:before
+{
+	background-color: #D8852E;
+}
+
+.animline2:before
+{
+	background-color: #A56999;
+}
+
+.animline3:before
+{
+	background-color: #7755D4;
+}
+
+
+
