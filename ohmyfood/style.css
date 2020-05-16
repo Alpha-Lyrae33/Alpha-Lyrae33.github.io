@@ -359,7 +359,7 @@ header h1
   }
 }
 
-.footer a
+.footer a:hover
 {
   animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;
   -webkit-animation: shake 1s cubic-bezier(.36,.07,.19,.97) both infinite;  
@@ -371,11 +371,11 @@ header h1
 
 .anim:hover 
 {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-transition: -webkit-transform 600ms;
   transition: -webkit-transform 600ms;
   transition: transform 600ms;
   transition: transform 600ms, -webkit-transform 600ms;
-  opacity: 0.8;
+  opacity: 0.65;
 }
