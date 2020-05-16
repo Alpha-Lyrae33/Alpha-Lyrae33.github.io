@@ -51,6 +51,7 @@ header h1
 {
 	display: flex;
 	flex-direction: column;
+	transition: all 600ms ease;
 }
 
 .menu1 a
@@ -374,8 +375,6 @@ header h1
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   -webkit-transition: -webkit-transform 600ms;
-  transition: -webkit-transform 600ms;
-  transition: transform 600ms;
-  transition: transform 600ms, -webkit-transform 600ms;
+
   opacity: 0.65;
 }
