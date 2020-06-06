@@ -81,7 +81,7 @@ header h1
 /*---- Menu 2 ----*/
 .menu2 a
 {
-	font-size: 35px;
+	font-size: 30px;
 	text-decoration: none;
 	background: -webkit-gradient(linear, left top, left bottom, from(#D8852E), to(#905BFD));
 	background: linear-gradient(90deg, #D8852E, #905BFD);
@@ -152,16 +152,20 @@ header h1
 
 .proch
 {
-	width: 20%;
+	width: 30%;
 	text-align: center;
     background-color: #569C87;
     margin: auto;
-    margin-top: 100px;
     margin-bottom: 150px;
     border-radius: 15px;
     color: #FDCB42;
     font-size: 50px;
-    
+    font-family: sans-serif;
+}
+
+.proch p
+{
+	padding: 25px;
 }
 
 .footer
@@ -180,6 +184,7 @@ header h1
 	margin: 0px 30px 0px 30px;
 	padding: 15px;
 	text-decoration: none;
+	font-family: sans-serif;
 }
 
 
@@ -190,6 +195,11 @@ header h1
 	.proch
 	{
 		font-size: 35px;
+	}
+
+	.menu2 a
+	{
+		font-size: 27px;
 	}
 
 
@@ -206,6 +216,20 @@ header h1
 	{
 		font-size: 25px;
 	}
+
+	.menu2 a
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.menu1, .menu2, .menu3, .menu4
+	{
+		width: 35%;
+		height: 40vw;
+	}
 }
 
 @media screen and (max-width: 800px)
@@ -217,8 +241,13 @@ header h1
 
 	.proch
 	{
-		font-size: 15px;
-		width: 30%;
+		font-size: 20px;
+		width: 35%;
+	}
+
+	.menu2 a
+	{
+		font-size: 16px;
 	}
 }
 
@@ -233,8 +262,8 @@ header h1
 
 	.menu1, .menu2, .menu3, .menu4
 	{
-		width: 50%;
-		height: 60vw;
+		width: 60%;
+		height: 70vw;
 	}
 
 	.footer
@@ -253,7 +282,7 @@ header h1
 
 	.proch
 	{
-		font-size: 15px;
+		font-size: 20px;
 	}
 	.footer
 	{
@@ -262,8 +291,9 @@ header h1
 
 	.proch
 	{
-		width: 50%;
+		width: 60%;
 	}
+
 }
 
 @media screen and (max-width: 400px)
